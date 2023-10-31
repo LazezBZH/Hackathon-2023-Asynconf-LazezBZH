@@ -4,7 +4,7 @@
 
 Application réalisée dans le cadre du hackathon de l'Asynconf 2023.
 
-Objectif: "IRéaliser un simulateur d'emprunt pour l'achat d'une voiture."
+Objectif: "Réaliser un simulateur d'emprunt pour l'achat d'une voiture."
 
 - L'Asynconf': [lien asynconf](https://asynconf.fr/)
 
@@ -22,11 +22,14 @@ Objectif: "IRéaliser un simulateur d'emprunt pour l'achat d'une voiture."
 
 ## Consignes
 
-> Réliser un simulateur à partir des barêmes fournis.
+> Réaliser un simulateur à partir des barêmes fournis.
+>
 > Au maximum peaufiner son design.
+>
 > Le choix des technos, langages, framework est libre.
 >
-> La reutilisation d’anciens codes que l'on a produits est permise.
+> La réutilisation d’anciens codes que l'on a produits est permise.
+>
 > Réaliser le projet en 24 heures (dead-line 31/10/2023 à 13h)
 
 ## Réalisation
@@ -42,13 +45,13 @@ Objectif: "IRéaliser un simulateur d'emprunt pour l'achat d'une voiture."
 
 - Uniquement du Vanilla que ce soit JS, HTML ou CSS, je trouve que j'apprends plus de choses en faisant tout moi-même ainsi
 - SessionStorage utilisé pour que le loader ne se joue qu'une fois par session.
-- Fetch d'un json que j'ai créé, rassemblant toutes les données fournie
+- Fetch d'un json que j'ai créé, rassemblant toutes les données fournies
 
 ### Petits plus
 
 - un pdf des barèmes à télécharger
 - J'ai ajouté un catégorie d'années car dans les tableaux fournis 1980/1990 avait disparu.
-- J'ai bien remaqué que le total ne fera jamais 40 comme annoncé dans la doc (il n'atteindra même jamais le score 34/40 permettant d'avoir le taux minimal puisque le max pouvant être atteint est de 33) mais n'ai pas touché à ces données.
+- J'ai bien remarqué que le total ne fera jamais 40 comme annoncé dans la doc (il n'atteindra même jamais le score 34/40 permettant d'avoir le taux minimal puisque le max pouvant être atteint est de 33) mais n'ai pas touché à ces données.
 
 [UP](#table-des-matières)
 
