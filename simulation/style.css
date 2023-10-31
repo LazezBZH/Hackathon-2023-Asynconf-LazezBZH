@@ -1,0 +1,225 @@
+.simulation-body {
+  background-color: var(--greenLight);
+  background-image: url("/assets/feuilles.svg");
+  background-size: 20%;
+  min-height: 10dvh;
+}
+
+.main {
+  width: 95dvw;
+  max-width: 1200px;
+  min-height: 80dvh;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+}
+#main-calcul,
+#adjust-calcul {
+  position: absolute;
+  left: 50%;
+  top: 10px;
+  transform: translateX(-50%);
+  min-height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.1rem;
+}
+#main-calcul fieldset,
+#adjust-calcul fieldset {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: solid 5px var(--primaryXLight);
+  padding: 15px;
+  background-color: var(--white);
+}
+#main-calcul legend,
+#adjust-calcul legend {
+  color: var(--primaryLight);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+input {
+  margin-right: 5px;
+}
+label {
+  text-transform: capitalize;
+}
+button,
+.back {
+  background-color: var(--primaryLight);
+  padding: 10px;
+  color: var(--white);
+  border-radius: 10px;
+  border: 2px solid var(--primaryXLight);
+  box-shadow: 5px 5px 10px var(--greenLight);
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+#adjust-calcul,
+.adjust-btn,
+.show-result-btn {
+  display: none;
+}
+
+.adjust-btn {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
+}
+.show-result-btn {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translateX(-50%);
+}
+.bonus {
+  background-color: var(--white);
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+}
+.rate {
+  font-size: 1.5rem;
+  width: 90dvw;
+  max-width: 800px;
+  height: 60dvh;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  padding: 2rem;
+  background-color: var(--green);
+  transform: translate(-50%, -50%);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.recap {
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 8px -18px 10px var(--white);
+}
+.reel-rate {
+  color: var(--important);
+}
+
+.rate a {
+  text-decoration: none;
+}
+
+/* tooltips */
+.tooltip {
+  position: relative;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 130px;
+  background-color: var(--green);
+  color: var(--white);
+  text-align: center;
+  border-radius: 6px;
+  padding: 6px 0;
+  position: absolute;
+  z-index: 1;
+  top: -150%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--greenLight) transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.tooltipInfos {
+  position: absolute;
+  bottom: -15%;
+  right: 1%;
+  background-color: var(--whiteLight);
+  transition: all 1s;
+  padding: 2px;
+  border-radius: 5px;
+}
+.tooltipInfos:hover {
+  background-color: var(--whiteXLight);
+  color: var(--primaryXLight);
+}
+.tooltipInfos .tooltipInfostext {
+  visibility: hidden;
+  width: 280px;
+  font-size: 1.1rem;
+  text-align: left;
+  text-indent: 24px;
+  background-color: var(--primaryXLight);
+  color: var(--white);
+  text-align: left;
+  border-radius: 6px;
+  padding: 12px 16px 0 16px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 0;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+.tooltipInfos .tooltipInfostext p {
+  margin-bottom: 12px;
+}
+.tooltipInfos .tooltipInfostext::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-right: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: var(--primaryXLight) transparent transparent transparent;
+  transform: rotate(180deg);
+}
+
+.tooltipInfos:hover .tooltipInfostext {
+  visibility: visible;
+  opacity: 1;
+}
+
+.baremes {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  background-color: var(--green);
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 2px solid var(--primaryXLight);
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--primary);
+  text-decoration: none;
+  transition: all 1000ms;
+  box-shadow: 5px -5px 10px var(--greenLight);
+}
+.baremes:hover {
+  background-color: var(--primary);
+  color: var(--green);
+}

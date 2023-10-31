@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="projet de Bénédicte Hérault pour le tournoi de l'Asynconf 2023">
+
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon//apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon//favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon//favicon.ico" />
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/style.css"/>
+ 
+    <title>Hackathon 2023 - Asynconf Lazez Bzh</title>
+</head>
+<body class="simulation-body">
+   <header>
+        <div class="logo-container_bp"><img src="/assets/logo.webp" alt="logo bp"></div>
+        <div class="logo-container_greenbank"><h1><a href="/"><img src="/assets/logo2.webp" alt="logo green bank"></a></h1></div>
+        <div class="explanation tooltipInfos"> <div class="tooltipInfostext"><p>Il sera, en fonction de vos réponses, attribué aux quatre éléments une note en fonction de son impact environnemental; plus l'impact est élevé meilleure est la note.</p><p> En fonction de cette note, un taux initial vous est attribué, celui-ci est ensuite pondéré par un bonus ou un malus suivant le nombre de passagers que vous transporterez dans votre véhicule pour donner le taux final auquel nous vous proposerons un prêt.</p><p> Vous pouvez, si vous le désirez télécharger nos barêmes en bas de cette page.</p></div> Comment sont effectués nos calculs &#x2753;</div>
+    </header>
+
+   <main class="main">
+        <form action="" id="main-calcul"></form>
+        <section id="first-score"></section>
+        <button  class="adjust-btn">Affiner</button>
+        <form action="" id="adjust-calcul"></form>
+        <button class="show-result-btn">Obtenir mon estimation</button>
+    </main>
+
+    <section class="rate">
+        <a href="/simulation/" class="back">Retour</a>
+    </section>
+
+    <a class="baremes" href="/assets/barèmes-green-bank.pdf" download>Télécharger les barêmes.</a>
+    <script src="script.js"></script>
+</body>
+</html>

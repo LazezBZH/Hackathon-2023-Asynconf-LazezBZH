@@ -1,0 +1,139 @@
+{
+  "vehicules": [
+    {
+      "category": "citadine",
+      "weight": "800 à 1300 kg",
+      "score": 8
+    },
+    {
+      "category": "cabriolet",
+      "weight": "1300 à 2000 kg",
+      "score": 6
+    },
+    {
+      "category": "berline",
+      "weight": "1300 à 1800 kg",
+      "score": 6.5
+    },
+    {
+      "category": "SUV / 4x4",
+      "weight": "1500 à 2500 kg",
+      "score": 4
+    }
+  ],
+  "energies": [
+    {
+      "category": "essence",
+      "score": 5
+    },
+    {
+      "category": "électrique",
+      "score": 9
+    },
+    {
+      "category": "gaz",
+      "score": 6
+    },
+    {
+      "category": "diesel",
+      "score": 4
+    },
+    {
+      "category": "hybride",
+      "score": 7
+    }
+  ],
+  "kilometers": [
+    {
+      "category": "5000 à 10.000 km",
+      "score": 9
+    },
+    {
+      "category": "10.001 à 15.000 km",
+      "score": 7
+    },
+    {
+      "category": "15.001 à 20.000 km",
+      "score": 5
+    },
+    {
+      "category": "20.001 à 25.000 km",
+      "score": 3
+    },
+    {
+      "category": "25.001 à 30.000 km",
+      "score": 1
+    }
+  ],
+  "years": [
+    {
+      "category": "1960 à 1970",
+      "score": 1
+    },
+    {
+      "category": "1971 à 1980",
+      "score": 2
+    },
+    {
+      "category": "1981 à 1990",
+      "score": 3
+    },
+    {
+      "category": "1991 à 2000",
+      "score": 4
+    },
+    {
+      "category": "2001 à 2010",
+      "score": 5
+    },
+    {
+      "category": "2011 et après",
+      "score": 7
+    }
+  ],
+  "rates": [
+    {
+      "min": 0,
+      "max": 10,
+      "rate": 3
+    },
+    {
+      "min": 11,
+      "max": 15,
+      "rate": 2.74
+    },
+    {
+      "min": 16,
+      "max": 25,
+      "rate": 2.52
+    },
+    {
+      "min": 26,
+      "max": 33,
+      "rate": 2.1
+    },
+    {
+      "min": 34,
+      "max": 40,
+      "rate": 1.85
+    }
+  ],
+  "passengers": [
+    {
+      "number": 1,
+      "bonus": 0.11
+    },
+    {
+      "number": 2,
+      "bonus": -0.17
+    },
+    {
+      "number": 3,
+      "bonus": -0.29
+    },
+    {
+      "number": 4,
+      "bonus": -0.53
+    }
+  ]
+}

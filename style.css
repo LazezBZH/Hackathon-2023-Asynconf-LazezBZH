@@ -1,0 +1,56 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: rgb(0, 0, 0);
+  --primaryLight: rgba(0, 0, 0, 0.8);
+  --primaryXLight: rgba(0, 0, 0, 0.6);
+  --green: rgb(128, 162, 80);
+  --greenLight: rgba(128, 162, 80, 0.8);
+  --white: rgb(245, 245, 245);
+  --whiteLight: rgba(245, 245, 245, 0.8);
+  --whiteXLight: rgba(245, 245, 245, 0.5);
+  --important: red;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  background-color: var(--whiteLight);
+  padding: 0 2rem 2rem 0;
+  position: absolute;
+  flex-wrap: wrap;
+}
+.logo-container_bp,
+.logo-container_greenbank {
+  min-width: 300px;
+  position: relative;
+}
+.logo-container_greenbank {
+  flex-grow: 1;
+  position: relative;
+}
+.logo-container_bp img {
+  width: 100%;
+  max-width: 350px;
+}
+.logo-container_greenbank img {
+  width: 90%;
+  max-width: 800px;
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+button {
+  cursor: pointer;
+}
