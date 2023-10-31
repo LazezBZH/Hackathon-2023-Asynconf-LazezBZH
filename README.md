@@ -1,4 +1,4 @@
-# SONGS FOR YOU
+# HACKATHON 2023 - ASYNCONF LAZEZ BZH
 
 ![logo](./assets/logo2.webp)
 
