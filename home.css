@@ -252,3 +252,14 @@ footer img {
   background-color: var(--primary);
   color: var(--green);
 }
+@media screen and (max-width: 800px) {
+  .adverts ul {
+    max-width: 300px;
+    flex-wrap: wrap;
+    gap: 120px;
+  }
+  .adverts figure {
+    width: 90px;
+    text-align: center;
+  }
+}
